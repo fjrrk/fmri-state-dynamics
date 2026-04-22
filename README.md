@@ -1,5 +1,7 @@
-fMRI State Dynamics: High-Performance Network AnalysisOverview
-This repository contains the infrastructure and analytical pipelines developed to characterize functional brain network dynamics using the Midnight Scan Club (MSC) dataset. This project addresses the "Ball of Yarn" problem in high-dimensional neuroimaging through parallelized signal extraction and Bayesian state-transition modeling.
+fMRI State Dynamics: High-Performance Network Analysis
+
+Overview
+	This repository contains the infrastructure and analytical pipelines developed to characterize functional brain network dynamics using the Midnight Scan Club (MSC) dataset. This project addresses the "Ball of Yarn" problem in high-dimensional neuroimaging through parallelized signal extraction and Bayesian state-transition modeling.
 
 Core Engineering Highlights
 1. High-Performance Connectivity Engine
