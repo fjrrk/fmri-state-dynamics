@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Though the import formatting is not exactly recommended python style, it's spaced to make it easier for me.
+# Spaced out because condensing imports makes debugging on the cluster a chore.
 from __future__ import print_function, division
 import numpy as np
 import pandas as pd
@@ -10,71 +10,73 @@ import scipy.stats as stats
 import multiprocessing as mp 
 from functools import partial
 
+import corr_helper
 import warnings
 
 
 """
 High-Performance Voxel-Wise Correlation Engine
-Project: fMRI State Dynamics
+Project: Midnight Scan Club (MSC) - N&C Connectivity Analysis
 Description: Parallelized Pearson correlation pipeline for 4D BOLD tensors.
 Environment: Optimized for distributed execution on Rutgers Amarel HPC Cluster
 """
 
-# Version 3.2. Added parallelization for voxel-wise correlation.
-#            Optimized for Amarel because 32k voxels is a nightmare locally.
-#            Dropped local paths to avoid the 'Mango' cringe.
+# Version 3.2. Final refined version for N&C project.
+#            Integrated global pool initialization to prevent memory leakage.
+#            Optimized for 30k+ voxel matricies on cluster nodes.
+#            Removed local Mango paths to avoid environment cringe.
 
-# Suppress non-critical calculation warnings common in BOLD signal processing
 warnings.filterwarnings("ignore")
 
-global subj, sess, vts, pool, count
+global subj, func, vts, vtn, count
 
 def init_pool(p):
-    """Initializes global pool for worker processes."""
+    """Initializes global pool for worker processes across the node."""
     global pool
     pool = p
 
-def compute_voxel_correlation(seed_voxel, voxel_matrix):
+def inner_task_unit(v0):
     """
-    Calculates Pearson correlation between a seed voxel and all others in a matrix.
-    Utilizes partial functions for map-reduce efficiency on cluster nodes.
+    Task unit for a single voxel-to-matrix mapping.
+    Populates results into a schema-defined DataFrame from corr_helper.
     """
-    global pool
+    global pool, subj, func, vts, count
     
-    # Partial function freezes the 'x' parameter for the stats.pearsonr call
-    # This makes the map operation much cleaner
-    initialized_corr = partial(stats.pearsonr, x=seed_voxel)
+    # Initialize the target dataframe
+    vtdf = corr_helper.initialize_correlation_df(vts)
     
-    # Map the correlation function across the matrix using the process pool
-    results = pool.map(initialized_corr, voxel_matrix)
-    return np.array(results)
+    # Map Pearson calculation across the target time-series pool
+    # Partial function freezes 'x' for map-reduce efficiency
+    initialized_corr = partial(stats.pearsonr, x=v0)
+    res = pool.map(initialized_corr, vts)
+    
+    # Populating r-values and p-values from the map result
+    vtdf.iloc[:,0] = res[:,0]
+    vtdf.iloc[:,1] = res[:,1]
+    
+    count += 1
+    
+    # Outputting to cluster Lustre filesystem
+    output_fn = f"./correlations/msc0{subj}_sess0{func}_L_corrdf_{count}.csv"
+    vtdf.to_csv(output_fn)
 
-def orchestrate_session(subject, session, input_path):
-    """
-    Main orchestration loop for high-throughput connectivity analysis.
-    Reduces processing time for 32k voxels from hours to minutes by 
-    distributing workloads across HPC CPU cores.
-    """
-    print(f"Ingesting BOLD time-series for Subject {subject}, Session {session}...", flush=True)
-    # data = np.genfromtxt(input_path, delimiter=",")
+def orchestrate_outer_loop(voxel_list):
+    """Main map-reduce entrance point for the session workload."""
+    global pool
+    print("Initiating distributed calculation pool...", flush=True)
+    pool.map(inner_task_unit, voxel_list)
+
+if __name__ == '__main__':
+    # Cluster Job Orchestration
+    # Target Subject 6 and Subject 8 natural-viewing data
+    SUBJ_IDS = [6, 8]
+    SESS_IDS = [1, 2]
     
-    # Reserve one core for OS/Orchestration overhead so we don't freeze the node
-    n_procs = mp.cpu_count() - 1
-    p = mp.Pool(processes=n_procs)
+    # Reserve one core for OS/Orchestration overhead
+    p = mp.Pool(mp.cpu_count() - 1)
     init_pool(p)
     
-    # Parallel processing of the 4D tensor occurs here
-    # results = compute_voxel_correlation(seed, data)
+    # orchestrate_outer_loop(...)
     
     p.close()
     p.join()
-    print("Parallelization complete. Correlation tensors saved to Lustre filesystem.")
-
-if __name__ == '__main__':
-    # Configuration for Amarel Cluster Batch Job
-    # Make sure to check session indexing before pushing to Slurm
-    SUBJECTS = [6, 8]
-    SESSIONS = [1, 2]
-    
-    # orchestrate_session(...)
-    pass
