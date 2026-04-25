@@ -1,0 +1,3123 @@
+../home/mango/Documents/Complexity/Midterm_Project/output/:
+total 22K
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 .
+drwxrwxr-x  5 tw468 tw468 4.0K May 16 16:11 ..
+drwxrwxr-x  6 tw468 tw468 4.0K Aug 15  2022 data_list
+drwxrwxr-x  4 tw468 tw468 4.0K Aug 15  2022 gradient_list
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 gradients
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 group
+drwxrwxr-x  3 tw468 tw468 4.0K May 15 15:31 homogeneity_gMSHBM
+drwxrwxr-x  3 tw468 tw468 4.0K Jul 13  2022 ind_parcellation_gMSHBM
+drwxrwxr-x  3 tw468 tw468 4.0K Jul 12  2022 priors
+drwxrwxr-x  5 tw468 tw468 4.0K Jul 13  2022 profile_list
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 profiles
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 spatial_mask
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list:
+total 3.0K
+drwxrwxr-x  6 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 censor_list
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 fMRI_list
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 surface_list
+drwxrwxr-x  3 tw468 tw468 4.0K Aug 15  2022 validation_set
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list/censor_list:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 6 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub10_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub1_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub2_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub3_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub4_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub5_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub6_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub7_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub8_sess9.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sub9_sess9.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list/fMRI_list:
+total 51K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 6 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub10_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub1_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub1_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub2_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub2_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub3_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub3_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub4_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub4_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub5_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub5_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub6_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub6_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub7_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub7_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub8_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub8_sess9.txt
+-rw-rw-r-- 1 tw468 tw468  268 Aug 15  2022 sub9_sess10.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess2.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess3.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess4.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess5.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess6.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess7.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess8.txt
+-rw-rw-r-- 1 tw468 tw468  212 Aug 15  2022 sub9_sess9.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list/surface_list:
+total 11K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 6 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub10_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub1_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub2_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub3_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub4_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub5_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub6_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub7_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub8_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 lh_sub9_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub10_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub1_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub2_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub3_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub4_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub5_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub6_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub7_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub8_sess1.txt
+-rw-rw-r-- 1 tw468 tw468  174 Aug 15  2022 rh_sub9_sess1.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list/validation_set:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 6 tw468 tw468 4.0K Aug 15  2022 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 14 12:16 fMRI_list
+
+../home/mango/Documents/Complexity/Midterm_Project/output/data_list/validation_set/fMRI_list:
+total 4.0K
+drwxrwxr-x 2 tw468 tw468 4.0K May 14 12:16 .
+drwxrwxr-x 3 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468   81 May 14 12:12 readme.md
+-rw-rw-r-- 1 tw468 tw468 1.1K May 15 15:02 sub1.txt
+-rw-rw-r-- 1 tw468 tw468 1.1K May 15 15:03 sub2.txt
+-rw-rw-r-- 1 tw468 tw468 1.1K May 15 15:03 sub3.txt
+-rw-rw-r-- 1 tw468 tw468 1.1K May 15 15:04 sub4.txt
+-rw-rw-r-- 1 tw468 tw468 1.1K May 15 13:55 sub5.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradient_list:
+total 2.0K
+drwxrwxr-x  4 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+-rw-rw-r--  1 tw468 tw468    0 Aug 15  2022 gradient_list_lh.txt
+-rw-rw-r--  1 tw468 tw468    0 Aug 15  2022 gradient_list_rh.txt
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 training_set
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 validation_set
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradient_list/training_set:
+total 2.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468  620 Aug 15  2022 gradient_list_lh.txt
+-rw-rw-r-- 1 tw468 tw468  620 Aug 15  2022 gradient_list_rh.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradient_list/validation_set:
+total 2.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Aug 15  2022 ..
+-rw-rw-r-- 1 tw468 tw468  620 Aug 15  2022 gradient_list_lh.txt
+-rw-rw-r-- 1 tw468 tw468  620 Aug 15  2022 gradient_list_rh.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  4 tw468 tw468 4.0K Jun 30  2022 sub1
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub10
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub2
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub3
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub4
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub5
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub6
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub7
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub8
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 sub9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub1:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub1/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jun 30  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub1/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jun 30  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub10:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Jul 12  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Jul 12  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Jul 12  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub10/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub10/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub2:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub2/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub2/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub3:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub3/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub3/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub4:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub4/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub4/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub5:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub5/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub5/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub6:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub6/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub6/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub7:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Aug  8  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Aug  8  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub7/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub7/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Aug  8  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Aug  8  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Aug  8  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub8:
+total 823M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Jul 12  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Jul 12  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Jul 12  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub8/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Jul 12  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub8/tmp:
+total 142M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.5M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.5M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.5M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub9:
+total 775M
+drwxrwxr-x  4 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 dump
+-rw-rw-r--  1 tw468 tw468 565K Aug  8  2022 gradients_edge_density.dtseries.nii
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 lh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 352M Aug  8  2022 lh_gradient_distance_matrix.npy
+-rw-rw-r--  1 tw468 tw468  11M Jul 12  2022 rh_emb_100_distance_matrix.mat
+-rw-rw-r--  1 tw468 tw468 401M Jul 12  2022 rh_gradient_distance_matrix.npy
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 tmp
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub9/dump:
+total 1.0K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_diffusion_emdedding.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan1_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan2_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan3_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan4_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan5_block3.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block1.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block2.dump
+-rw-rw-r-- 1 tw468 tw468    0 Aug  8  2022 Done_grads_scan6_block3.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/gradients/sub9/tmp:
+total 143M
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Jul 12  2022 BLOCK1_gradients_LR_subcort_blockA_1_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.6M Jul 12  2022 BLOCK2_gradients_LR_subcort_blockA_2_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468  23M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55.dtseries.nii
+-rw-rw-r-- 1 tw468 tw468 1.7M Jul 12  2022 BLOCK3_gradients_LR_subcort_blockA_3_avg_acrosssub_smooth2.55_edges.mat
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.lh.sphere
+-rw-rw-r-- 1 tw468 tw468 361K Jul 12  2022 downsampled.rh.sphere
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.L.surf.gii
+-rw-rw-r-- 1 tw468 tw468 148K Jul 12  2022 sphere.downsampled.R.surf.gii
+
+../home/mango/Documents/Complexity/Midterm_Project/output/group:
+total 2.2M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+-rw-rw-r--  1 tw468 tw468 2.2M Aug  8  2022 group.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/homogeneity_gMSHBM:
+total 1.5K
+drwxrwxr-x  3 tw468 tw468 4.0K May 15 15:31 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  3 tw468 tw468 4.0K May 15 15:31 validation_set
+
+../home/mango/Documents/Complexity/Midterm_Project/output/homogeneity_gMSHBM/validation_set:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 .
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 5_sess
+
+../home/mango/Documents/Complexity/Midterm_Project/output/homogeneity_gMSHBM/validation_set/5_sess:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 .
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 15 15:31 beta50
+
+../home/mango/Documents/Complexity/Midterm_Project/output/homogeneity_gMSHBM/validation_set/5_sess/beta50:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 15 15:31 .
+drwxrwxr-x 3 tw468 tw468 4.0K May 15 15:31 ..
+-rw-rw-r-- 1 tw468 tw468  211 May 17 19:15 Ind_homogeneity_ArealMSHBM_sub1_w20_MRF20_beta50.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM:
+total 1.5K
+drwxrwxr-x  3 tw468 tw468 4.0K Jul 13  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  4 tw468 tw468 4.0K May 13 19:03 validation_set
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM/validation_set:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 13 19:03 .
+drwxrwxr-x 3 tw468 tw468 4.0K Jul 13  2022 ..
+drwxrwxr-x 3 tw468 tw468 4.0K Jul 13  2022 3_sess
+drwxrwxr-x 3 tw468 tw468 4.0K May 13 19:03 5_sess
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM/validation_set/3_sess:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K Jul 13  2022 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 13 19:03 ..
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 13  2022 beta50
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM/validation_set/3_sess/beta50:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K Jul 13  2022 .
+drwxrwxr-x 3 tw468 tw468 4.0K Jul 13  2022 ..
+-rw-rw-r-- 1 tw468 tw468  474 Jul 13  2022 Ind_parcellation_MSHBM_sub1_w20_MRF20_beta50.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM/validation_set/5_sess:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K May 13 19:03 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 13 19:03 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 18 12:10 beta50
+
+../home/mango/Documents/Complexity/Midterm_Project/output/ind_parcellation_gMSHBM/validation_set/5_sess/beta50:
+total 18K
+drwxrwxr-x 2 tw468 tw468 4.0K May 18 12:10 .
+drwxrwxr-x 3 tw468 tw468 4.0K May 13 19:03 ..
+-rw-rw-r-- 1 tw468 tw468  11K May 17 19:15 Ind_parcellation_MSHBM_sub1_w20_MRF20_beta50.mat
+-rw-rw-r-- 1 tw468 tw468  474 May 18 12:10 Ind_parcellation_MSHBM_sub2_w20_MRF20_beta50.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/priors:
+total 1.5K
+drwxrwxr-x  3 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  3 tw468 tw468 4.0K Feb 27  2022 gMSHBM
+
+../home/mango/Documents/Complexity/Midterm_Project/output/priors/gMSHBM:
+total 1.5K
+drwxrwxr-x 3 tw468 tw468 4.0K Feb 27  2022 .
+drwxrwxr-x 3 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 beta50
+
+../home/mango/Documents/Complexity/Midterm_Project/output/priors/gMSHBM/beta50:
+total 559M
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 3 tw468 tw468 4.0K Feb 27  2022 ..
+-rwxrwxr-x 1 tw468 tw468 2.9M May 12 20:18 Params_Final.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:22 Params_iteration1.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:29 Params_iteration2.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:37 Params_iteration3.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:44 Params_iteration4.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:51 Params_iteration5.mat
+-rw-rw-r-- 1 tw468 tw468  70M May 12 19:58 Params_iteration6.mat
+-rw-rw-r-- 1 tw468 tw468  69M May 12 20:05 Params_iteration7.mat
+-rw-rw-r-- 1 tw468 tw468  69M May 12 20:12 Params_iteration8.mat
+-rw-rw-r-- 1 tw468 tw468 2.9M May 12 20:18 Params_iteration9.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profile_list:
+total 2.5K
+drwxrwxr-x  5 tw468 tw468 4.0K Jul 13  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 test_set
+drwxrwxr-x  2 tw468 tw468 4.0K Aug 15  2022 training_set
+drwxrwxr-x  3 tw468 tw468 4.0K May 13 15:06 validation_set
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profile_list/test_set:
+total 3.5K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 5 tw468 tw468 4.0K Jul 13  2022 ..
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sess10.txt
+-rw-rw-r-- 1 tw468 tw468  772 Aug 15  2022 sess1.txt
+-rw-rw-r-- 1 tw468 tw468  772 Aug 15  2022 sess2.txt
+-rw-rw-r-- 1 tw468 tw468  772 Aug 15  2022 sess3.txt
+-rw-rw-r-- 1 tw468 tw468  772 Aug 15  2022 sess4.txt
+-rw-rw-r-- 1 tw468 tw468  772 Aug 15  2022 sess5.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sess6.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sess7.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sess8.txt
+-rw-rw-r-- 1 tw468 tw468    0 Aug 15  2022 sess9.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profile_list/training_set:
+total 3.5K
+drwxrwxr-x 2 tw468 tw468 4.0K Aug 15  2022 .
+drwxrwxr-x 5 tw468 tw468 4.0K Jul 13  2022 ..
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess1.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess2.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess3.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess4.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess5.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profile_list/validation_set:
+total 4.5K
+drwxrwxr-x 3 tw468 tw468 4.0K May 13 15:06 .
+drwxrwxr-x 5 tw468 tw468 4.0K Jul 13  2022 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 13 14:16 backup
+-rw-rw-r-- 1 tw468 tw468  163 May 13 14:00 readme.md
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess1.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess2.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess3.txt
+-rw-rw-r-- 1 tw468 tw468  770 Aug 15  2022 sess4.txt
+-rw-rw-r-- 1 tw468 tw468  780 Aug 15  2022 sess5.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profile_list/validation_set/backup:
+total 3.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 13 14:16 .
+drwxrwxr-x 3 tw468 tw468 4.0K May 13 15:06 ..
+-rw-rw-r-- 1 tw468 tw468  780 May 13 14:16 sess10.txt
+-rw-rw-r-- 1 tw468 tw468    0 May 13 14:16 sess1.txt
+-rw-rw-r-- 1 tw468 tw468    0 May 13 14:16 sess2.txt
+-rw-rw-r-- 1 tw468 tw468    0 May 13 14:16 sess3.txt
+-rw-rw-r-- 1 tw468 tw468    0 May 13 14:16 sess4.txt
+-rw-rw-r-- 1 tw468 tw468    0 May 13 14:16 sess5.txt
+-rw-rw-r-- 1 tw468 tw468  770 May 13 14:16 sess6.txt
+-rw-rw-r-- 1 tw468 tw468  770 May 13 14:16 sess7.txt
+-rw-rw-r-- 1 tw468 tw468  770 May 13 14:16 sess8.txt
+-rw-rw-r-- 1 tw468 tw468  770 May 13 14:16 sess9.txt
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles:
+total 6.5K
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 avg_profile
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub1
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub10
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub2
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub3
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub4
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub5
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub6
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub7
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub8
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 sub9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/avg_profile:
+total 77M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+-rw-rw-r--  1 tw468 tw468  77M Aug  4  2022 fs_LR_32k_roifs_LR_900_avg_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess2:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub1_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess4:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub1_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess5:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub1_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jun 30  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess8:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub1_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub1/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub1_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess2:
+total 4.0M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 4.0M Aug  4  2022 sub10_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess4:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub10/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub10_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess1:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess10:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess2:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess3:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess4:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess5:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess6:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess7:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess8:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub2/sess9:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub2_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess1:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess10:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub3_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess3:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess4:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess5:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess6:
+total 12M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  12M Aug  4  2022 sub3_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess7:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess8:
+total 15M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  15M Aug  4  2022 sub3_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub3/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub3_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess3:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub4_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess4:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub4/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub4_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess4:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub5/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub5_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess4:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub6/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub6_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess4:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess7:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub7/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub7_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess1:
+total 4.8M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 4.8M Aug  4  2022 sub8_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess10:
+total 11M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  11M Aug  4  2022 sub8_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess2:
+total 7.0M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 7.0M Aug  4  2022 sub8_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub8_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess4:
+total 3.0M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 2.9M Aug  4  2022 sub8_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess5:
+total 7.6M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 7.5M Aug  4  2022 sub8_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess6:
+total 8.3M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 8.3M Aug  4  2022 sub8_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess7:
+total 2.9M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468 2.9M Aug  4  2022 sub8_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub8_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub8/sess9:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub8_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9:
+total 6.0K
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K Jul 12  2022 ..
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess1
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess10
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess2
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess3
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess4
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess5
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 sess6
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess7
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess8
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 sess9
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess1:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess1_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess10:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess10_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess2:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess2_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess3:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess3_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess4:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub9_sess4_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess5:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess5_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess6:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess6_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess7:
+total 11M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  11M Aug  4  2022 sub9_sess7_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess8:
+total 14M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  14M Aug  4  2022 sub9_sess8_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/profiles/sub9/sess9:
+total 13M
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 14  2022 .
+drwxrwxr-x 12 tw468 tw468 4.0K Jul 14  2022 ..
+-rw-rw-r--  1 tw468 tw468  13M Aug  4  2022 sub9_sess9_fs_LR_32k_roifs_LR_900.surf2surf_profile.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/spatial_mask:
+total 961K
+drwxrwxr-x  2 tw468 tw468 4.0K Jul 12  2022 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+-rw-rw-r--  1 tw468 tw468 947K Aug  7  2022 spatial_mask_fs_LR_32k.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp:
+total 38K
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 .
+drwxrwxr-x 13 tw468 tw468 4.0K May 15 15:31 ..
+-rw-rw-r--  1 tw468 tw468  930 May 12 19:04 all_sub_profile_list.mat
+drwxrwxr-x  2 tw468 tw468  16K May 12 19:04 ini
+drwxrwxr-x  6 tw468 tw468 4.0K May 12 19:22 inter_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:29 inter_2
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:37 inter_3
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:44 inter_4
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:51 inter_5
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:58 inter_6
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:05 inter_7
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:11 inter_8
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:18 inter_9
+-rw-rw-r--  1 tw468 tw468  450 May 12 19:04 setting_params.mat
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/ini:
+total 51M
+drwxrwxr-x  2 tw468 tw468  16K May 12 19:04 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+-rw-rw-r--  1 tw468 tw468 7.3M May 12 19:04 sub1.mat
+-rw-rw-r--  1 tw468 tw468    0 May 12 19:04 sub1.mat.dump
+-rw-rw-r--  1 tw468 tw468  14M May 12 19:04 sub2.mat
+-rw-rw-r--  1 tw468 tw468    0 May 12 19:04 sub2.mat.dump
+-rw-rw-r--  1 tw468 tw468  12M May 12 19:04 sub3.mat
+-rw-rw-r--  1 tw468 tw468    0 May 12 19:04 sub3.mat.dump
+-rw-rw-r--  1 tw468 tw468 8.4M May 12 19:04 sub4.mat
+-rw-rw-r--  1 tw468 tw468    0 May 12 19:04 sub4.mat.dump
+-rw-rw-r--  1 tw468 tw468 9.1M May 12 19:04 sub5.mat
+-rw-rw-r--  1 tw468 tw468    0 May 12 19:04 sub5.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1:
+total 19K
+drwxrwxr-x  6 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:22 converge_flag
+drwxrwxr-x  9 tw468 tw468 4.0K May 12 19:15 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:19 intra_2
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:22 intra_3
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 6 tw468 tw468 4.0K May 12 19:22 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:22 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:22 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1:
+total 4.5K
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 .
+drwxrwxr-x 6 tw468 tw468 4.0K May 12 19:22 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:06 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:08 EMstep_iter2
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:10 EMstep_iter3
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:12 EMstep_iter4
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:13 EMstep_iter5
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:15 EMstep_iter6
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:15 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:15 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:06 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:06 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:06 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:06 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:06 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:06 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:06 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:06 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:06 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:06 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:06 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:08 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:08 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:08 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:08 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:08 ..
+-rw-rw-r-- 1 tw468 tw468  228 May 12 19:08 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:08 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:08 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:08 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:08 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:08 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter3:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:10 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:10 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:10 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter3/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:10 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:10 ..
+-rw-rw-r-- 1 tw468 tw468  228 May 12 19:10 iter_3.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:10 iter_3.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter3/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:10 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:10 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 19:10 EMiter3_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:10 EMiter3_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter4:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:12 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:12 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:12 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter4/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:12 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:12 ..
+-rw-rw-r-- 1 tw468 tw468  228 May 12 19:12 iter_4.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:12 iter_4.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter4/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:12 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:12 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:12 EMiter4_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:12 EMiter4_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter5:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:13 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:13 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:13 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter5/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:13 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:13 ..
+-rw-rw-r-- 1 tw468 tw468  228 May 12 19:13 iter_5.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:13 iter_5.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter5/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:13 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:13 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:13 EMiter5_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:13 EMiter5_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter6:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:15 .
+drwxrwxr-x 9 tw468 tw468 4.0K May 12 19:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter6/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:15 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:15 iter_6.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:15 iter_6.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_1/EMstep_iter6/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:15 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:15 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:15 EMiter6_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:15 EMiter6_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:19 .
+drwxrwxr-x 6 tw468 tw468 4.0K May 12 19:22 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:17 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:19 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:19 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:19 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:19 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:17 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:19 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:17 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:17 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:17 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:17 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:17 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:17 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:17 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:17 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:17 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:17 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:19 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:19 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:19 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:19 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:19 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:19 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:19 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:19 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:19 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 6 tw468 tw468 4.0K May 12 19:22 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:20 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:22 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:22 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:22 iter_3.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:22 iter_3.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:20 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:22 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:20 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:20 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:20 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:20 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:20 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:20 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:20 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:20 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:20 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:20 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:22 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:22 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:22 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:22 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_1/intra_3/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:22 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:22 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:22 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:22 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:29 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:26 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:29 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:29 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:29 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:26 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:24 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:26 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:26 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:26 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:26 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:24 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:26 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:24 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:24 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:24 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:24 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:24 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:24 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:24 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:24 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:24 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:24 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:26 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:26 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:26 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:26 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:26 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:26 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:26 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:26 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:26 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:27 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:29 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:29 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:29 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:27 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:27 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:27 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:27 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:27 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:27 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:27 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:27 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:27 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:27 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:27 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:29 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:29 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:29 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:29 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_2/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:29 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:29 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:29 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:29 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:37 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:33 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:37 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:37 iter_3.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:37 iter_3.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:33 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:31 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:33 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:33 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:33 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:33 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:31 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:33 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:31 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:31 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:31 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:31 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:31 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:31 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:31 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:31 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:31 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:31 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:33 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:33 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:33 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:33 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:33 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:33 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:33 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:33 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:33 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:35 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:37 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:37 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:37 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:35 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:35 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:35 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:35 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:35 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:35 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:35 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:35 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:35 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:35 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:35 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:37 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:37 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:37 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:37 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_3/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:37 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:37 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:37 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:37 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:44 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:40 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:44 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:44 iter_4.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:44 iter_4.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:40 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:39 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:40 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:40 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:40 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:40 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:39 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:40 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:39 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:39 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:39 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:39 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:39 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:39 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:39 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:39 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:39 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:39 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:40 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:40 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:40 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:40 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:40 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:40 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:40 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:40 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:40 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:42 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:44 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:44 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:44 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:42 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:42 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:42 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:42 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:42 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:42 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:42 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:42 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:42 ..
+-rw-rw-r-- 1 tw468 tw468  209 May 12 19:42 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:42 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:44 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:44 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:44 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:44 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_4/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:44 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:44 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 19:44 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:44 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:51 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:48 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:51 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:51 iter_5.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:51 iter_5.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:48 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:46 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:48 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:48 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:48 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:48 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:46 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:48 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:46 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:46 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:46 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:46 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:46 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:46 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:46 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:46 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 19:46 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:46 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:48 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:48 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:48 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:48 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:48 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:48 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:48 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 19:48 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:48 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:49 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:51 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:51 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:51 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:49 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:49 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:49 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:49 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:49 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:49 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:49 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:49 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:49 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 19:49 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:49 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:51 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:51 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:51 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:51 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_5/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:51 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:51 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 19:51 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:51 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 19:58 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:55 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 19:58 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 19:58 iter_6.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:58 iter_6.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:55 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:53 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:55 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:55 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 19:55 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:55 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:53 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:55 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:53 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:53 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:53 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:53 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:53 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:53 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:53 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:53 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 19:53 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:53 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:55 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:55 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:55 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:55 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:55 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:55 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:55 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 19:55 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:55 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:57 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:58 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 19:58 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:58 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:57 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:57 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:57 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:57 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:57 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:57 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:57 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:57 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:57 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 19:57 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:57 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 19:58 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:58 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 19:58 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:58 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_6/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 19:58 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 19:58 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 19:58 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 19:58 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 20:05 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:02 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:05 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 20:05 iter_7.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:05 iter_7.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:02 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:00 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:02 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:02 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 20:02 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:02 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:00 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:02 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:00 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:00 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:00 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:00 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:00 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:00 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:00 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:00 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:00 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:00 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:02 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:02 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:02 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:02 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:02 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:02 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:02 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:02 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:02 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:04 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:05 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 20:05 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:05 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:04 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:04 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:04 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:04 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:04 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:04 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:04 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:04 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:04 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:04 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:04 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:05 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:05 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:05 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:05 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_7/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:05 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:05 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:05 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:05 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 20:11 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:08 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:11 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+-rw-rw-r-- 1 tw468 tw468  182 May 12 20:11 iter_8.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:11 iter_8.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:08 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:07 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:08 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:08 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 20:08 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:08 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:07 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:08 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:07 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:07 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:07 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:07 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:07 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:07 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:07 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:07 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:07 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:07 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:08 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:08 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:08 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:08 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:08 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:08 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:08 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:08 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:08 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:10 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:11 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 20:11 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:11 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:10 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:10 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:10 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:10 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:10 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:10 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:10 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:10 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:10 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:10 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:10 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:11 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:11 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:11 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:11 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_8/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:11 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:11 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:11 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:11 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9:
+total 18K
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 12 tw468 tw468  16K May 12 20:18 ..
+drwxrwxr-x  2 tw468 tw468 4.0K May 12 20:18 converge_flag
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:15 intra_1
+drwxrwxr-x  5 tw468 tw468 4.0K May 12 20:18 intra_2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+-rw-rw-r-- 1 tw468 tw468  181 May 12 20:18 iter_9.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:18 iter_9.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:15 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:13 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:15 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:15 ..
+-rw-rw-r-- 1 tw468 tw468  240 May 12 20:15 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:15 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:13 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:13 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:13 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:13 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:13 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:13 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:13 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:13 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:13 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:13 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:13 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:15 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:15 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:15 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:15 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:15 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_1/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:15 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:15 ..
+-rw-rw-r-- 1 tw468 tw468  207 May 12 20:15 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:15 EMiter2_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2:
+total 2.5K
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 converge_flag
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:16 EMstep_iter1
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:18 EMstep_iter2
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+-rw-rw-r-- 1 tw468 tw468  241 May 12 20:18 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:18 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter1:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:16 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:16 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:16 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter1/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:16 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:16 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:16 iter_1.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:16 iter_1.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter1/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:16 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:16 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:16 EMiter1_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:16 EMiter1_cost.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter2:
+total 2.0K
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 5 tw468 tw468 4.0K May 12 20:18 ..
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 converge_flag
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 cost
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter2/converge_flag:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:18 ..
+-rw-rw-r-- 1 tw468 tw468  227 May 12 20:18 iter_2.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:18 iter_2.mat.dump
+
+../home/mango/Documents/Complexity/Midterm_Project/output/tmp/inter_9/intra_2/EMstep_iter2/cost:
+total 1.5K
+drwxrwxr-x 2 tw468 tw468 4.0K May 12 20:18 .
+drwxrwxr-x 4 tw468 tw468 4.0K May 12 20:18 ..
+-rw-rw-r-- 1 tw468 tw468  208 May 12 20:18 EMiter2_cost.mat
+-rw-rw-r-- 1 tw468 tw468    0 May 12 20:18 EMiter2_cost.mat.dump
