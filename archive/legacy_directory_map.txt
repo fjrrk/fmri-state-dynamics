@@ -1,0 +1,14 @@
+The folders and contents herein as follows:
+
+Parcellation: Files associated with the midterm project
+
+Analyses: Files associated with the final project
+
+MSC_dataset_and_backups: As apparent by the name of 
+the folder, this contains the MSC dataset along with 
+a backup of the same.
+
+The linux_to_windows ipython notebook contains code 
+used to translate between operating systems and can be 
+ignored. The same applies to hidden files associated
+with this notebook.
