@@ -1,0 +1,665 @@
+---
+title: "Cifti MSC Analysis"
+author: "Tahia Warda"
+date: "2023-05-18"
+output: html_document
+---
+
+```{r}
+install.packages("rprojroot")
+install.packages("tidyverse")
+install.packages("caret")
+install.packages("readr")
+install.packages("ggplot2")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+library(tidyverse)
+library(caret)
+library(readr)
+library(ggplot2)
+library(ciftiTools)
+ciftiTools.setOption('wb_path', './bin_windows64/wb_command.exe')
+library(R.matlab)
+library(fpc)
+```
+
+```{r}
+subj <- ciftiTools::read_cifti(paste0("../data/surface_pipeline/sub-MSC06/processed_task_timecourses/ses-func01/sub-MSC06_ses-func01_task-memory_bold_32k_fsLR.dtseries.nii"))
+surfL <- ciftiTools::read_surf(surf = "../data/surface_pipeline/sub-MSC06/fs_LR_Talairach/fsaverage_LR32k/MSC06.L.inflated.32k_fs_LR.surf.gii", expected_hemisphere = "left")
+surfR <- ciftiTools::read_surf(surf = "../data/surface_pipeline/sub-MSC06/fs_LR_Talairach/fsaverage_LR32k/MSC06.R.inflated.32k_fs_LR.surf.gii", expected_hemisphere = "right")
+subj <- ciftiTools::add_surf(subj, surfL, surfR)
+```
+
+to csv files
+```{r}
+for (i in 6:8){
+  for (j in 1:2){
+    subj <- ciftiTools::read_cifti(paste0("../data/surface_pipeline/sub-MSC0",i,
+                                          "/processed_task_timecourses/ses-func0",j,
+                                          "/sub-MSC0",i,"_ses-func0",j,
+                                          "_task-memory_bold_32k_fsLR.dtseries.nii"))
+    subjL <- subj$data$cortex_left %>% as_tibble()
+    write.csv(subjL, file=paste0("./msc0",i,"_sess0",j,"_L_dts.csv"), row.names=FALSE, col.names=FALSE)
+    
+  }
+  
+}
+```
+
+
+trying to get first difference of scan timeseries
+```{r}
+msc1.diff <- matrix(0,dim(msc1$data$cortex_left)[1], 
+                    dim(msc1$data$cortex_left)[2]-1)
+
+for (i in seq(dim(msc1$data$cortex_left)[2]-1)){
+  msc1.diff[,i] = msc1$data$cortex_left[,i] - msc1$data$cortex_left[,i+1]
+}
+```
+
+now, is there any correlation between them?  actually, let's break 'em down into little bits of 10.
+```{r}
+msc1.bits <- tibble(time=seq(10))
+
+for (i in seq(dim(msc1.diff)[1])){
+  for (j in seq(dim(msc1.diff)[2])-9){
+    msc1.bits <- msc1.bits %>% 
+      add_column(!! paste0("voxel_",i,"_timestep_",j) := msc1.diff[i,j:j+9])
+  }
+}
+saveRDS(msc1.bits, file = "msc01_lagged_times.rds")
+```
+
+```{r}
+msc1_main.bits <- tibble(time=seq(10))
+
+for (i in seq(dim(msc1$data$cortex_left)[1])){
+  for (j in seq(dim(msc1$data$cortex_left)[2])-9){
+    msc1_main.bits <- msc1_main.bits %>% 
+      add_column(!! paste0("voxel_",i,"_timestep_",j) := msc1$data$cortex_left[i,j:j+9])
+  }
+}
+saveRDS(msc1_main.bits, file = "msc01_lagged_times_main.rds")
+```
+
+
+```{r}
+time_lagger <- function(vxl){
+  
+  v <- msc1$data$cortex_left[vxl,]
+  d <- length(v)
+  expd <- d-(d%%10)
+  vmat <- matrix(0,10,(expd^2)+expd)
+
+  for (j in seq(d-9)){
+      vmat[,j] <- v[j:(j+9)]
+  }
+  
+  return(vmat)
+}
+```
+
+```{r}
+voxels <- seq(dim(msc1$data$cortex_left)[1]) %>% as.list()
+msc1.mat <- sapply(voxels, time_lagger)
+#saveRDS(msc1.bits, file = "msc01_mat_left.rds")
+```
+
+
+```{r}
+voxels <- seq(dim(msc1$data$cortex_left)[1]) %>% as.list()
+diff.mat <- sapply(voxels, function(x) sapply(msc1.diff[x,], time_lagger))
+saveRDS(msc1.bits, file = "msc01_mat_diff1.rds")
+```
+
+
+Let's see where these bits are:
+```{r}
+
+for (i in 6:8){
+  
+  # Initialize palette
+  pal <- topo.colors(401)
+  rgbpal <- col2rgb(pal) / 255
+  r <- rgbpal[1,]
+  g <- rgbpal[2,]
+  b <- rgbpal[3,]
+  Alpha <- rep(1, length(401))
+
+  # Read in the data
+  # subj <- ciftiTools::read_cifti(paste0("../data/surface_pipeline/sub-MSC0",i,
+  #                                       "/processed_task_timecourses/ses-func0",j,
+  #                                       "/sub-MSC0",i,"_ses-func0",j,
+  #                                       "_task-memory_bold_32k_fsLR.dtseries.nii"))
+  gmhbm <- R.matlab::readMat(paste0("./5_sess/beta50/Ind_parcellation_MSHBM_sub",i-5,"_w20_MRF20_beta50.mat"))
+  surfR <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC0",i,"/fs_LR_Talairach/fsaverage_LR32k/MSC0",i,".R.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "right")
+  surfL <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC0",i,"/fs_LR_Talairach/fsaverage_LR32k/MSC0",i,".L.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "left")
+  # subj <- ciftiTools::add_surf(subj, surfL, surfR)
+  
+  # Create color code
+  tmp <- gmhbm$lh.labels
+  tmp <- append(tmp, gmhbm$rh.labels)
+  Key <- sort(unique(tmp))
+
+  # set up the labels
+  p <- ciftiTools::load_parc("Yeo_17")
+  p$data$cortex_left <- gmhbm$lh.labels
+  p$data$cortex_right <- gmhbm$rh.labels
+  p$surf$cortex_left <- surfL
+  p$surf$cortex_right <- surfR
+  
+  # Let's see where everything is
+  for (k in Key){
+    k <- k+1
+    Red <- rep(0,length(Key))
+    Blue <- rep(0,length(Key))
+    Green <- rep(0,length(Key))
+    Red[[k]] <- r[[k]]
+    Green[[k]] <- g[[k]]
+    Blue[[k]] <- b[[k]]
+    p$meta$cifti$labels$parcels <- data.frame(Key, 
+                                              Red, Green, 
+                                              Blue, Alpha)
+    ciftiTools::write_cifti(p, cifti_fname = paste0("./sub-MSC0",i,
+                                                    "_rukong_parcel_",
+                                                    k,
+                                                    ".dlabel.nii"))
+  }
+}
+
+```
+
+```{r}
+# Initialize palette
+pal <- topo.colors(401)
+rgbpal <- col2rgb(pal) / 255
+r <- rgbpal[1,]
+g <- rgbpal[2,]
+b <- rgbpal[3,]
+Alpha <- rep(1, length(401))
+
+for (i in 6:8){
+
+  # Read in the data
+  # subj <- ciftiTools::read_cifti(paste0("../data/surface_pipeline/sub-MSC0",i,
+  #                                       "/processed_task_timecourses/ses-func0",j,
+  #                                       "/sub-MSC0",i,"_ses-func0",j,
+  #                                       "_task-memory_bold_32k_fsLR.dtseries.nii"))
+  gmhbm <- R.matlab::readMat(paste0("./5_sess/beta50/Ind_parcellation_MSHBM_sub",i-5,"_w20_MRF20_beta50.mat"))
+  surfR <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC0",i,"/fs_LR_Talairach/fsaverage_LR32k/MSC0",i,".R.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "right")
+  surfL <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC0",i,"/fs_LR_Talairach/fsaverage_LR32k/MSC0",i,".L.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "left")
+  # subj <- ciftiTools::add_surf(subj, surfL, surfR)
+  
+  # Create color code
+  tmp <- gmhbm$lh.labels
+  tmp <- append(tmp, gmhbm$rh.labels)
+  Key <- sort(unique(tmp))
+
+  # set up the labels
+  p <- ciftiTools::load_parc("Yeo_17")
+  p$data$cortex_left <- gmhbm$lh.labels
+  p$data$cortex_right <- gmhbm$rh.labels
+  p$surf$cortex_left <- surfL
+  p$surf$cortex_right <- surfR
+  
+  # Let's see where everything is
+
+  Red <- rgbpal[1,]
+  Blue <- rgbpal[3,]
+  Green <- rgbpal[2,]
+
+  p$meta$cifti$labels$parcels <- data.frame(Key, 
+                                            Red, Green, 
+                                            Blue, Alpha)
+  ciftiTools::write_cifti(p, cifti_fname = paste0("./sub-MSC0",i,
+                                                  "_rukong_parcel_.dlabel.nii"))
+
+}
+
+```
+
+
+
+```{r}
+p <- ciftiTools::read_xifti("./sub-MSC06_rukong_parcel_.dlabel.nii")
+surfR <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC06/fs_LR_Talairach/fsaverage_LR32k/MSC06.R.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "right")
+surfL <- ciftiTools::read_surf(surf = paste0("../data/surface_pipeline/sub-MSC06/fs_LR_Talairach/fsaverage_LR32k/MSC06.L.inflated.32k_fs_LR.surf.gii"), expected_hemisphere = "left")
+
+p$surf$cortex_left <- surfL
+p$surf$cortex_right <- surfR
+```
+
+Make ids of the voxels. (one hopes)
+```{r}
+idxs <- list()
+for (i in c(36, 187, 198, 199, 190, 201)){
+  tmp <- list()
+  for (j in seq(29162)){
+    if (subj6_resamp$data$cortex_left[j]==i){
+      tmp <- append(tmp, j)
+    }
+  idxs <- append(idxs, tmp)
+  }
+}
+```
+parallel version of above
+```{r}
+n.cores <- parallel::detectCores() - 1
+#create the cluster
+clustmsc <- parallel::makeCluster(
+  n.cores, 
+  type = "PSOCK"
+  )
+
+doParallel::registerDoParallel(cl = clustmsc)
+```
+
+Let's get the voxels that fit the parcels of interest
+```{r}
+ROI <- foreach(i = c(125, 36, 187, 198, 199, 190, 201)
+                    ) %:%
+                      foreach(j=1:32492
+                      ) %dopar% {
+                        if (gmhbm$lh.labels[j]==i){
+                          if (j %in% medial_wall){
+                            j
+                            }
+                          }
+                        }
+
+parallel::stopCluster(cl = clustmsc)
+```
+
+```{r}
+names(ROI) <- c("p125", "p36", "p187", "p198", "p190", "p199", "p201")
+for (i in names(ROI)){
+  print(length(ROI[[i]]))
+}
+```
+
+
+```{r}
+for (i in names(ROI)){
+  ROI[[i]][sapply(ROI[[i]], is.null)] <- NULL
+}
+```
+
+
+Create matrix:
+```{r}
+for (i in 6:8){
+  for (j in 1:2){
+    subj <- ciftiTools::read_cifti(paste0("../data/surface_pipeline/sub-MSC0",i,
+                                          "/processed_task_timecourses/ses-func0",j,
+                                          "/sub-MSC0",i,"_ses-func0",j,
+                                          "_task-memory_bold_32k_fsLR.dtseries.nii"))
+    for (n in names(voxl)){
+      parcvox <- subj$data$cortex_left[unlist(ROI[[n]]),]
+      hmat <- matrix(0, ncol=length(parcvox), nrow=length(parcvox))
+      for (row in seq(dim(parcvox)[1])){
+        for (col in seq(dim(parcvox)[1])){
+          hmat[i,j] <- cor(parcvox[i,], parcvox[j,], method="pearson")
+        }
+      }
+      write.csv(hmat, file = "./msc06_p125_corr_mat.csv", sep = ',', col.names = TRUE)
+    } 
+```
+
+```{r}
+#automatic install of packages if they are not installed already
+list.of.packages <- c(
+  "foreach",
+  "doParallel",
+  "ranger",
+  "palmerpenguins",
+  "tidyverse",
+  "kableExtra"
+  )
+
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+
+if(length(new.packages) > 0){
+  install.packages(new.packages, dep=TRUE)
+}
+
+#loading packages
+for(package.i in list.of.packages){
+  suppressPackageStartupMessages(
+    library(
+      package.i, 
+      character.only = TRUE
+      )
+    )
+}
+```
+
+
+
+# get_voxels <- function(ind_parc, subj){
+#   # We have vertex numbers, but we need to
+#   # get the voxels for those vertices
+#   parc_rois <- c(125, 36, 187, 198, 199, 190, 201)
+#   
+#   parc_names <- c("p125", "p36", "p187", "p198", "p190", "p199", "p201")
+#   
+#   roi_voxls <- foreach(i = parc_rois
+#   ) %:% {
+#     roi <- get_parcel_verts(ind_parc, i)
+#   }
+#   
+#     foreach(j = 1:length(subj6$meta$cortex$medial_wall_mask$left)
+#     ) %dopar% {
+#       if (j %in% roi){
+#         if (j %in% cortL_vertices){
+#           j
+#         }
+#       }
+#     }
+#   names(roi_voxls) <- parc_names
+# 
+# }
+```{r}
+# Initialize palette
+pal <- hcl.colors(401, palette="Cyan-Magenta")
+rgbpal <- col2rgb(pal)/255
+r <- rgbpal[1,]
+g <- rgbpal[2,]
+b <- rgbpal[3,]
+Alpha <- rep(1, length(401))
+
+
+# Create color code
+tmp <- surfL_w_label$data$cortex_left
+tmp <- append(tmp, surfL_w_label$data$cortex_right)
+Key <- sort(unique(tmp))
+
+# Let's see where everything is
+
+Red <- rgbpal[1,]
+Blue <- rgbpal[3,]
+Green <- rgbpal[2,]
+
+surfL_w_label$meta$cifti$labels$parcels <- data.frame(Key, 
+                                          Red, Green, 
+                                            Blue, Alpha)
+
+
+```
+
+
+Let's try to visualize this better:
+```{r}
+library(foreach)
+library(parallel)
+
+```
+
+```{r}
+n.cores <- parallel::detectCores() - 1
+#create the cluster
+clustmsc <- parallel::makeCluster(
+  n.cores, 
+  type = "PSOCK"
+  )
+
+doParallel::registerDoParallel(cl = clustmsc)
+```
+
+```{r}
+roi <- c(125,36,187,199,198,190,201)
+
+roil <- list()
+for (i in 1:length(roi)){
+  tmp <- which(surf_copy$data$cortex_left==roi[i])
+  roil[[paste0("lp",roi[i])]] <- tmp
+}
+
+        # ) %dopar% {
+        #   if (surf_copy$data$cortex_left[i] %in% roi){
+        #     print(surf_copy$data$cortex_left[i])
+        #     }
+        #   else{
+        #     surf_copy$data$cortex_left[i] <- 1
+        #   }
+        #   
+        #   if (surf_copy$data$cortex_right[i] %in% roi){
+        #     print(surf_copy$data$cortex_right[i])
+        #   }
+        #   else{
+        #     surf_copy$data$cortex_right[i] <- 1
+        #   }
+        # }
+
+```
+
+
+
+```{r}
+parallel::stopCluster(cl = clustmsc)
+```
+
+```{r}
+surf_copy$data$cortex_left <- rep(1, 
+                                  length(surf_copy$data$cortex_left))
+surf_copy$data$cortex_right <- rep(1, 
+                                  length(surf_copy$data$cortex_right))
+for (i in 1:length(roi)){
+  voxls <- as.numeric(unlist(roil[[paste0("lp",roi[i])]]))
+  surf_copy$data$cortex_left[voxls] <- i+1
+}
+surf_copy$meta$cifti$labels$parcels <- data.frame(Key = seq(1,8), Red = rgbpal[1,], Green = rgbpal[2,], Blue = rgbpal[3,], Alpha = rep(1,8))
+```
+
+
+2024: Figuring out if I understood what I did
+
+DIANA (divisive clustering)
+```{R}
+library(cluster)
+mtxs <- list(lp125=matrix(rep(0,363*141), nrow=363, ncol=141),
+             lp36=matrix(rep(0,363*151), nrow=363, ncol=151),
+             lp187=matrix(rep(0,363*158), nrow=363, ncol=158),
+             lp199=matrix(rep(0,363*121), nrow=363, ncol=121),
+             lp198=matrix(rep(0,363*159), nrow=363, ncol=159),
+             lp190=matrix(rep(0,363*172), nrow=363, ncol=172),
+             lp201=matrix(rep(0,363*109), nrow=363, ncol=109)
+             );
+```
+
+```{R}
+library(cluster)
+mtxs <- list(lp125=matrix(rep(0,363*141), ncol=363, nrow=141),
+             lp36=matrix(rep(0,363*151), ncol=363, nrow=151),
+             lp187=matrix(rep(0,363*158), ncol=363, nrow=158),
+             lp199=matrix(rep(0,363*121), ncol=363, nrow=121),
+             lp198=matrix(rep(0,363*159), ncol=363, nrow=159),
+             lp190=matrix(rep(0,363*172), ncol=363, nrow=172)
+             );
+```
+
+```{R}
+for (i in 1:length(roil)) {
+  # first we shape this thing into a proper matrix
+  p_i_voxl <- roil[names(roil)[i]][[1]]
+
+  for (j in 1:length(p_i_voxl)) {
+    voxl <- subj$data$cortex_left[p_i_voxl[j],];
+    mtxs[[names(roil)[i]]][j,] <- voxl;
+  }
+}
+
+```
+
+```{r}
+# entire visual ROI
+vxl_visual <- c(roil$lp125, roil$lp36, roil$lp187);
+
+mtxs.v <- matrix(rep(0,363*450), ncol=363, nrow=length(vxl_visual));
+
+for (i in 1:length(vxl_visual)) {
+  mtxs.v[i,] <- subj$data$cortex_left[vxl_visual[i],]
+}
+```
+
+
+
+```{r}
+library(readr)
+
+# msc06, sess01
+msc06_sess01_p36 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p36.csv"
+  )
+
+msc06_sess01_p125 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p125.csv"
+  )
+
+msc06_sess01_p187 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p187.csv"
+  )
+
+msc06_sess01_p199 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p199.csv"
+  )
+
+msc06_sess01_p198 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p198.csv"
+  )
+
+msc06_sess01_p190 <- read_csv(
+  "voxels/msc06_sess01_ind_parc_p190.csv"
+  )
+
+# msc06, sess02
+msc06_sess02_p36 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p36.csv"
+  )
+
+msc06_sess02_p125 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p125.csv"
+  )
+
+msc06_sess02_p187 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p187.csv"
+  )
+
+msc06_sess02_p199 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p199.csv"
+  )
+
+msc06_sess02_p198 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p198.csv"
+  )
+
+msc06_sess02_p190 <- read_csv(
+  "voxels/msc06_sess02_ind_parc_p190.csv"
+  )
+
+# msc08, sess01
+msc08_sess01_p36 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p36.csv"
+  )
+
+msc08_sess01_p125 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p125.csv"
+  )
+
+msc08_sess01_p187 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p187.csv"
+  )
+
+msc08_sess01_p199 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p199.csv"
+  )
+
+msc08_sess01_p198 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p198.csv"
+  )
+
+msc08_sess01_p190 <- read_csv(
+  "voxels/msc08_sess01_ind_parc_p190.csv"
+  )
+
+# msc08, sess02
+msc08_sess02_p36 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p36.csv"
+  )
+
+msc08_sess02_p125 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p125.csv"
+  )
+
+msc08_sess02_p187 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p187.csv"
+  )
+
+msc08_sess02_p199 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p199.csv"
+  )
+
+msc08_sess02_p198 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p198.csv"
+  )
+
+msc08_sess02_p190 <- read_csv(
+  "voxels/msc08_sess02_ind_parc_p190.csv"
+  )
+```
+
+
+bootstrapping to see if valid
+
+```{r}
+#library(fpc)
+
+# results <- clusterboot(msc06_sess02_p36, B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+msc06_sess01 <- clusterboot(msc06_sess01_p190, B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+
+msc06_sess02 <- clusterboot(msc06_sess02_p190, B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+
+msc08_sess01 <- clusterboot(msc08_sess01_p190, B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+
+msc08_sess02 <- clusterboot(msc08_sess02_p190, B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+```
+
+```{r}
+msc06_sess01$bootmean
+msc06_sess02$bootmean
+msc08_sess01$bootmean
+msc08_sess02$bootmean
+```
+Let's plot these bad boys.
+```{r}
+m6.01.199 <- msc06_sess01_p199 %>% dist() %>% hclust( method="average") %>% as.dendrogram(height=2)
+
+m6.02.199 <- msc06_sess02_p199 %>% dist() %>% hclust( method="average") %>% as.dendrogram(height=2)
+
+m8.01.199 <- msc06_sess01_p199 %>% dist() %>% hclust( method="average") %>% as.dendrogram(height=2)
+
+m8.02.199 <- msc06_sess02_p199 %>% dist() %>% hclust( method="average") %>% as.dendrogram(height=2)
+```
+
+
+loop through each for jaccard sim results
+```{r}
+jacc_sim <- list()
+for (i in 1:7){
+  current_parcel <- names(roil)[[i]]
+  res <- clusterboot(mtxs[[current_parcel]], B=1000, bootmethod = "boot", clustermethod = hclustCBI, method="average", k=3, bscompare = TRUE)
+  jacc_sim[[current_parcel]] <- res$bootmean
+}
+```
+
+Extract voxels of interest
+```{r}
+m6.01.199 <- msc06_sess01_p199 %>% dist() %>% hclust(method="average") 
+
+m6.02.199 <- msc06_sess02_p199 %>% dist() %>% hclust(method="average") 
+
+m8.01.199 <- msc06_sess01_p199 %>% dist() %>% hclust(method="average")
+
+m8.02.199 <- msc06_sess02_p199 %>% dist() %>% hclust(method="average") 
