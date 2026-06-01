@@ -1,3 +1,12 @@
+# fMRI State Dynamics Archive
+
+This repository is an exploratory research-code archive preserved for provenance.
+
+It contains code, notebooks, intermediate outputs, and analysis fragments from an academic research project on dynamic fMRI connectivity. It is not intended to represent production-quality software.
+
+A cleaned and reproducible portfolio version of selected analysis components will be developed separately.
+
+--------------------------------------------------------------------------
 # **fmri-state-dynamics: High-Performance Network Connectivity Pipeline**
 
 ## **Overview**
